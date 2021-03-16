@@ -6,10 +6,10 @@ export interface WithPropsInterface {
 }
 
 // ok
-const WithProps: FC<WithPropsInterface> = ({ tooltipPosition }) => {
+// const WithProps: FC<WithPropsInterface> = ({ tooltipPosition }) => {
 
 // error - no sidebar (reload necessary)
-// const WithProps: FC<WithPropsInterface> = ({ tooltipPosition="top" }) => {
+const WithProps: FC<WithPropsInterface> = ({ tooltipPosition="top" }) => {
     return (
     <>
         tooltipPosition: {tooltipPosition}
