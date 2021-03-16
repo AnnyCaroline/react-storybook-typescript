@@ -38,9 +38,11 @@
     ]
   },
   "devDependencies": {
+    "handsontable": "^6.2.2",
+    "@handsontable/react": "^3.0.0",
     "@babel/core": "^7.10.2",
-    "@storybook/addon-docs": "6.0.0-beta.25",
-    "@storybook/react": "6.0.0-beta.25",
+    "@storybook/addon-docs": "6.1.21",
+    "@storybook/react": "6.1.21",
     "babel-loader": "^8.1.0"
   }
 }
